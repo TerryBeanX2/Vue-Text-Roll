@@ -1,0 +1,32 @@
+.x-text-roll-ul {
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d; /* Safari 和 Chrome */
+    backface-visibility: hidden;
+    position: relative;
+    animation: x-text-roll-down 10s linear 0s infinite;
+}
+
+@keyframes x-text-roll-up {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(-360deg);
+    }
+}
+@keyframes x-text-roll-down {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(-360deg);
+    }
+}
+
+.x-text-roll-li {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    backface-visibility: hidden;
+}
