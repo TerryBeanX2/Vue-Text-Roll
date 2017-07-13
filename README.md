@@ -1,6 +1,6 @@
 # Vue-Text-Roll
 新项目用Vue做，所以抽空研究点Vue的小玩意儿，写点小插件啥的。<br>
-这个插件是滚动展示文字列表用的，比如那种“光荣榜”神马的。
+这个插件是滚动展示文字列表用的，比如那种“光荣榜”神马的。<br>
 
 可自定义属性示例:
 ```javascript
@@ -44,7 +44,7 @@ npm install vue-roll-text --save
 ### 用法 
 ##### ES6
 ```js
-Vue.use(require('vue-roll-text'))
+Vue.use(require('vue-text-roll'))
 ```
 
 ```html
