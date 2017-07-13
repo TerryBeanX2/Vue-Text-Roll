@@ -1,6 +1,10 @@
 # Vue-Text-Roll
 新项目用Vue做，所以抽空研究点Vue的小玩意儿，写点小插件啥的。<br>
 这个插件是滚动展示文字列表用的，比如那种“光荣榜”神马的。<br>
+比如这种：
+![img](https://github.com/TerryBeanX2/Vue-Text-Roll/raw/img/example.png)
+
+    我只实现圆筒的滚动效果，上下倾斜的部分需要你自己加个父级去遮,中间区域形成无缝的滚动展示效果。
 
 可自定义属性示例:
 ```javascript
