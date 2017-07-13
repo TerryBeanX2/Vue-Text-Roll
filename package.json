@@ -1,6 +1,6 @@
 {
   "name": "vue-roll-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a type of animation for text in vue",
   "main": "rollText.js",
   "scripts": {
