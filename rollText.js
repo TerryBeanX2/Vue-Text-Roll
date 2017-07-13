@@ -1,5 +1,5 @@
 export default {
-    install() {
+    install(Vue) {
         require('./rollText.css');
         Vue.component('roll-text', {
             template: `<ul class="x-text-roll-ul" :style="{animationName:'x-text-roll-'+direction,animationDuration:duration+'s',height:wrapHeight+'px'}">
