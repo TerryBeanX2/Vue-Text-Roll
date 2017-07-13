@@ -42,7 +42,7 @@ minItem:{  //最少条目，建议设置不小于20，如果不够20，本插件
 npm install vue-roll-text --save
 ```
 ### 用法 
-
+##### ES6
 ```js
 Vue.use(require('vue-roll-text'))
 ```
