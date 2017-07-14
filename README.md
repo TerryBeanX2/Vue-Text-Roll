@@ -44,7 +44,7 @@ minItem:{  //最少条目，建议设置不小于20，如果不够20，本插件
 > Vuejs 
 
 ```bash
-npm install vue-roll-text --save
+npm install vue-text-roll --save
 ```
 ### 用法 
 ##### ES6
